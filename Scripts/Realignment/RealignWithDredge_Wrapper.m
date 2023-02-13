@@ -2,7 +2,7 @@ clear all;
 close all;
 restoredefaultpath;
 
-scriptsDir = 'C:\Publish_Human_Layers\'; %Change to the directory where repository is
+scriptsDir = 'C:\DREDge_Interpolation\'; %Change to the directory where repository is
 addpath(genpath([scriptsDir 'Scripts/Realignment/']));
 addpath(genpath('Kilosort-2.5/'));%Change to the directory where Kilosort2.5 is
 %% Requirements
