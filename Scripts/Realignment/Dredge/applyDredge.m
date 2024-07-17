@@ -72,7 +72,7 @@ hread = resample(hread,rez.ops.dredge.dredgeSamples , rez.ops.dredge.BatchSample
 hread = median(hread) - hread;
 rez.ops.NT  = rez.ops.dredge.BatchSamplesNT;
 
-Nbatches = ceil(ops.sampsToRead / rez.ops.dredge.BatchSamplesNT);
+Nbatches = length(hread); %ceil(ops.sampsToRead / rez.ops.dredge.BatchSamplesNT);
 rez.temp.Nbatch = Nbatches;
 sig = rez.ops.sig;
 
