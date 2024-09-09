@@ -3,7 +3,7 @@ close all;
 restoredefaultpath;
 
 scriptsDir = 'C:\InterpolationAfterDREDge\'; %Change to the directory where repository is
-addpath(genpath([scriptsDir 'Scripts/Realignment/']));
+addpath(genpath([scriptsDir 'Scripts/AP/']));
 addpath(genpath('Kilosort-2.5/'));%Change to the directory where Kilosort2.5 is
 %% Requirements
 %basePath folder should contain .dat file named the same as containing
